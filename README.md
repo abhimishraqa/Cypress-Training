@@ -28,11 +28,24 @@ It contains sample configurations, test cases, and experiments as I explore Cypr
 ```
    npx cypress open
    ```
-## 📂 Project Structure:  
 
-    -cypress.config.js → Cypress configuration file
-    -package.json → Project dependencies  
-    -cypress/e2e/ → Test files will be added here
+## 📂 Project Structure:
+
+* **`cypress/e2e/`** → End-to-end test files
+
+  * **`Cypress_Provided_Examples/`** → Cypress-provided sample tests for learning and reference
+    * `1-getting-started/` → Cypress getting-started examples
+    * `2-advanced-examples/` → Cypress advanced examples
+  * **`Full_Stack_Projects/`** → My own Cypress practice projects
+    * `Swag_Labs/` → SauceDemo end-to-end testing project
+  * **`StartingSteps/`** → Cypress learning and practice test cases
+* **`cypress/fixtures/`** → Test data files
+* **`cypress/support/`** → Reusable commands and support files
+  * `commands.js` → Custom Cypress commands
+  * `e2e.js` → Global support file
+* **`cypress.config.js`** → Cypress configuration file
+* **`package.json`** → Project dependencies
+
 
 ## ✅ Example Test:  
 
