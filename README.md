@@ -30,6 +30,7 @@ It contains sample configurations, test cases, and experiments as I explore Cypr
    ```
 
 ## 📂 Project Structure:
+```
 
 * **`cypress/e2e/`** → End-to-end test files
 
@@ -45,6 +46,7 @@ It contains sample configurations, test cases, and experiments as I explore Cypr
   * `e2e.js` → Global support file
 * **`cypress.config.js`** → Cypress configuration file
 * **`package.json`** → Project dependencies
+```
 
 
 ## ✅ Example Test:  
